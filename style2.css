@@ -1,0 +1,62 @@
+body {
+    margin: 20px;
+    font-family: 'Times New Roman', serif;
+}
+
+.vnav {
+    width: 200px;
+    box-shadow: 4px 4px 6px rgb(165, 165, 165);
+}
+
+.vnav .pt {
+    display: block;
+    background: linear-gradient(to bottom, #e3e3e3, rgb(239, 239, 239));
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 15px;
+    border-bottom: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.vnav .pt:hover {
+    background: linear-gradient(to bottom, rgb(204, 204, 204), rgb(145, 145, 145));
+}
+
+.vnav .item {
+    position: relative;
+}
+
+.vnav .drop {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 100%;
+    width: 140px;
+    box-shadow: 3px 3px 5px rgb(165, 165, 165);
+}
+
+.drop_item {
+    display: block;
+    background: linear-gradient(to bottom, #e3e3e3, rgb(239, 239, 239));
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.drop_item:hover {
+    background: linear-gradient(to bottom, rgb(204, 204, 204), rgb(145, 145, 145));
+}
+
+.vnav .item:hover > .drop {
+    display: block;
+}
+
+/* Дорожкин В.И. ПИ-209Бзу */
